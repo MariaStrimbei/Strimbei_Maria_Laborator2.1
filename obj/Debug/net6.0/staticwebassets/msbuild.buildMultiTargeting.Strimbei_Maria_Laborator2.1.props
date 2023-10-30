@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Strimbei_Maria_Laborator2.1.props" />
+</Project>
