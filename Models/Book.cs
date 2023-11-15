@@ -9,14 +9,26 @@ namespace Strimbei_Maria_Laborator2._1.Models
         public int ID { get; set; }
         [Display(Name = "Book Title")]
         public string Title { get; set; }
-        
+        public int? AuthorsID { get; set; }
+        public Author? Authors { get; set; }
+
         [Column(TypeName = "decimal(6, 2)")]
         public decimal Price { get; set; }
+
         [DataType(DataType.Date)]
         public DateTime PublishingDate { get; set; }
+
         public int? PublisherID { get; set; }
         public Publisher? Publisher { get; set; }
-        public int? AuthorID { get; set; }
-        public Author? Author { get; set; }
+
+        public string BookDetails => $"{Title} - Price: {Price:C} - Published on: {PublishingDate:d}";
+    
+
+
+
+    public ICollection<BookCategory>? BookCategories { get; set; }
+
+        
+       
     }
 }

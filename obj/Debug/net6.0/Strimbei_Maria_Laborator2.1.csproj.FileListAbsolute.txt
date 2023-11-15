@@ -275,3 +275,11 @@ C:\Users\Maria\Desktop\fsega3\Medii de programare\Strimbei_Maria_Laborator2.1\bi
 C:\Users\Maria\Desktop\fsega3\Medii de programare\Strimbei_Maria_Laborator2.1\bin\Debug\net6.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\Maria\Desktop\fsega3\Medii de programare\Strimbei_Maria_Laborator2.1\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\Maria\Desktop\fsega3\Medii de programare\Strimbei_Maria_Laborator2.1\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Maria\Desktop\fsega3\Medii de programare\Strimbei_Maria_Laborator2.1\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Maria\Desktop\fsega3\Medii de programare\Strimbei_Maria_Laborator2.1\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Maria\Desktop\fsega3\Medii de programare\Strimbei_Maria_Laborator2.1\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Maria\Desktop\fsega3\Medii de programare\Strimbei_Maria_Laborator2.1\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\Maria\Desktop\fsega3\Medii de programare\Strimbei_Maria_Laborator2.1\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\Maria\Desktop\fsega3\Medii de programare\Strimbei_Maria_Laborator2.1\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Maria\Desktop\fsega3\Medii de programare\Strimbei_Maria_Laborator2.1\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Maria\Desktop\fsega3\Medii de programare\Strimbei_Maria_Laborator2.1\obj\Debug\net6.0\Strimbei_Maria_Laborator2.1.MvcApplicationPartsAssemblyInfo.cs
