@@ -20,7 +20,7 @@
                 @Html.DisplayNameFor(model => model.Borrowing[0].Book)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Borrowing[0].Book.Authors)
+                @Html.DisplayNameFor(model => model.Borrowing[0].Book.Author)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Borrowing[0].ReturnDate)
@@ -39,7 +39,7 @@
                     @Html.DisplayFor(modelItem => item.Book.Title)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Book.Authors.FullName)
+                    @Html.DisplayFor(modelItem => item.Book.Author.FullName)
                 </td>
                 <td>
                     <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |

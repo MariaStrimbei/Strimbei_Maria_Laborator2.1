@@ -23,12 +23,12 @@ namespace Strimbei_Maria_Laborator2._1.Pages.Borrowings
         public IActionResult OnGet()
         {
             var bookList = _context.Book
- .Include(b => b.Authors)
+ .Include(b => b.Author)
  .Select(x => new
  {
      x.ID,
-     BookFullName = x.Title + " - " + x.Authors.LastName + " " +
-x.Authors.FirstName
+     BookFullName = x.Title + " - " + x.Author.LastName + " " +
+x.Author.FirstName
  });
             ViewData["BookID"] = new SelectList(bookList, "ID", "BookFullName");
             ViewData["MemberID"] = new SelectList(_context.Member, "ID", "FullName");

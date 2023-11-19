@@ -9,8 +9,11 @@ namespace Strimbei_Maria_Laborator2._1.Models
         public int ID { get; set; }
         [Display(Name = "Book Title")]
         public string Title { get; set; }
-        public int? AuthorsID { get; set; }
-        public Author? Authors { get; set; }
+        [Column(TypeName = "decimal(6, 2)")]
+        [Range(0.01, 500)]
+
+        public int? AuthorID { get; set; }
+        public Author? Author { get; set; }
 
         [Column(TypeName = "decimal(6, 2)")]
         public decimal Price { get; set; }

@@ -27,7 +27,7 @@ namespace Strimbei_Maria_Laborator2._1.Pages.Borrowings
             {
                 Borrowing = await _context.Borrowing
                 .Include(b => b.Book)
-                .ThenInclude(b => b.Authors)
+                .ThenInclude(b => b.Author)
                 .Include(b => b.Member).ToListAsync();
             }
         }
